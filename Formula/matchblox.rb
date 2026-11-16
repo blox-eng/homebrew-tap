@@ -1,4 +1,4 @@
-# Written by .github/scripts/packages.sh in blox-eng/matchblox for v0.46.1. Do not edit:
+# Written by .github/scripts/packages.sh in blox-eng/matchblox for v0.46.2. Do not edit:
 # the next release writes it again.
 class Matchblox < Formula
   desc "One terminal console for every AI coding agent you run"
@@ -9,23 +9,23 @@ class Matchblox < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/blox-eng/matchblox/releases/download/v0.46.1/matchblox-darwin-arm64"
-      sha256 "8d43b3c643b0cf1786d7e0011c2cf177cd019fe1295da9c06c132869ef31a742"
+      url "https://github.com/blox-eng/matchblox/releases/download/v0.46.2/matchblox-darwin-arm64"
+      sha256 "2e630812651d34aea31396b9ac9fb5e535f0b296fd2fb6c3e1ac8b8f1c96fa73"
     end
     on_intel do
-      url "https://github.com/blox-eng/matchblox/releases/download/v0.46.1/matchblox-darwin-amd64"
-      sha256 "3a3b6531343cdb295c334e9bb70bb4c75f098d557f45348890d67cf3a8ea2b00"
+      url "https://github.com/blox-eng/matchblox/releases/download/v0.46.2/matchblox-darwin-amd64"
+      sha256 "046b6a67a3448f09a9d487f3c1a1afd2d1d3ec777cf438576f122778b64e6803"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/blox-eng/matchblox/releases/download/v0.46.1/matchblox-linux-arm64"
-      sha256 "e5ac3f312499a661d4b89ca678034921da50e859f2632082d367f760770b57bc"
+      url "https://github.com/blox-eng/matchblox/releases/download/v0.46.2/matchblox-linux-arm64"
+      sha256 "aa37c6d17036f614b31780ae48f72a11c449ec194a8ff5fdab0692ea9a0f576a"
     end
     on_intel do
-      url "https://github.com/blox-eng/matchblox/releases/download/v0.46.1/matchblox-linux-amd64"
-      sha256 "4f30355ee51693a7ae265710b64c24ba5359ea2e40a53a4fe2f53a03d68678cc"
+      url "https://github.com/blox-eng/matchblox/releases/download/v0.46.2/matchblox-linux-amd64"
+      sha256 "3ccf3be3f4a2593428ad67ed410f96737066282ec80e8ef44ec5fa3da1c32b42"
     end
   end
 
